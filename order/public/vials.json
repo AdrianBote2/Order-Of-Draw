@@ -1,0 +1,85 @@
+{
+    "Vials" : {
+        "Vial1": [{
+            "Order": 1,
+            "Color": "white",
+            "Name": "Blood Cultures",
+            "Pre-req": "No fasting required",
+            "Conflicts": "Avoid anticoagulants",
+            "Description": "Blood cultures for bacterial or fungal infection detection",
+            "numOfInversions": 8
+        }],
+        "Vial2": [{
+            "Order": 2,
+            "Color": "blue",
+            "Name": "Sodium Citrate",
+            "Pre-req": "Fasting recommended",
+            "Conflicts": "Can conflict with heparin",
+            "Description": "Used for coagulation Vials (e.g., PT, APTT)",
+            "numOfInversions": 3
+        }],
+        "Vial3": [{
+            "Order": 3,
+            "Color": "red",
+            "Name": "Clot Activator",
+            "Pre-req": "No pre-requirements",
+            "Conflicts": "No known conflicts",
+            "Description": "Used for serum separation, enhances clotting",
+            "numOfInversions": 5
+        }],
+        "Vial4": [{
+            "Order": 4,
+            "Color": "orange",
+            "Name": "SST",
+            "Pre-req": "No fasting required",
+            "Conflicts": "No known conflicts",
+            "Description": "Serum Separator Tube for collecting serum samples",
+            "numOfInversions": 5
+        }],
+        "Vial5": [{
+            "Order": 5,
+            "Color": "light green",
+            "Name": "Lithium Heparin",
+            "Pre-req": "No fasting required",
+            "Conflicts": "Avoid with lithium therapy",
+            "Description": "Used for plasma collection, prevents clotting",
+            "numOfInversions": 8
+        }],
+        "Vial6": [{
+            "Order": 6,
+            "Color": "dark green",
+            "Name": "Sodium Heparin",
+            "Pre-req": "No fasting required",
+            "Conflicts": "Avoid with sodium overload",
+            "Description": "Anticoagulant for plasma separation and hematology",
+            "numOfInversions": 8
+        }],
+        "Vial7": [{
+            "Order": 7,
+            "Color": "light blue",
+            "Name": "EDTA",
+            "Pre-req": "No fasting required",
+            "Conflicts": "Can cause hemolysis in samples",
+            "Description": "Used for blood counts and hematology Vials",
+            "numOfInversions": 8
+        }],
+        "Vial8": [{
+            "Order": 8,
+            "Color": "gray",
+            "Name": "Sodium Fluoride",
+            "Pre-req": "No fasting required",
+            "Conflicts": "Interferes with glucose Vialing if not stored properly",
+            "Description": "Used for glucose and lactate Vialing",
+            "numOfInversions": 8
+        }],
+        "Vial9": [{
+            "Order": 9,
+            "Color": "yellow",
+            "Name": "ACD Solution",
+            "Pre-req": "No fasting required",
+            "Conflicts": "May affect certain blood cultures",
+            "Description": "Used for blood bank Vials and DNA studies",
+            "numOfInversions": 8
+        }]
+    }
+}

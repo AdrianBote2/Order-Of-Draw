@@ -6,6 +6,7 @@
     --accent: #95daf3;
 }
 
+/* Keep original .card-list-item styling */
 .card-list-item {
     display: block; /* Ensures each card button takes up the full width */
     margin: 10px 0; /* Adds spacing between the buttons */
@@ -20,7 +21,7 @@
     /* outline: 2px solid var(--background); */
     outline-offset: -2px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Makes the shadow stronger */
-    }
+}
 
 .card-list-item h3{
     color: rgb(12, 62, 228);
@@ -28,7 +29,6 @@
 
 .card-list-item button {
     /* background-color: var(--primary); */
-
     color: white;
     border: none;
     border-radius: 8px;
@@ -48,4 +48,17 @@
     flex-direction: column; /* Aligns items in a single column */
     align-items: center; /* Centers the buttons horizontally */
     padding: 20px; /* Adds padding around the list */
+}
+
+/* New styles for the card description feature */
+.card-list-item-container {
+    position: relative;
+    width: 40vw;
+    margin: 10px 0;
+}
+
+/* Remove margin from .card-list-item since it's now handled by the container */
+.card-list-item-container .card-list-item {
+    margin: 0;
+    width: 100%;
 }

@@ -5,9 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>HTML 5 Boilerplate</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="card.css">
 </head>
 <body>
-<script src="index.js"></script>
+<div class="card" id="card">
+    <style>.colored{
+        height: 30px;
+        width: 100%;
+        background-color: #804c8f;
+    }</style>
+    <p class="colored"></p>
+    <div class="container">
+        <button id = "close" onclick="Invisible()">X</button>
+        
+        <h1>Complete Blood Count</h1>
+        <p>Tests the total red blood cell count per units of blood</p>
+        <p class="colors">Lavender (EDTA)</p>
+        
+        <div id="buttons">
+            <button id="remove">-</button>
+            <button id="add">+</button>
+        </div>
+    </div>
+</div>
+
+<script src="javas.js"></script>
 </body>
 </html>

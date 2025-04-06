@@ -1,0 +1,51 @@
+:root{
+    --text: #0c1416;
+    --background: #f6f9fb;
+    --primary: #4c9cb9;
+    --secondary: #93c5d7;
+    --accent: #64c4e7;
+}
+
+.card-list-item {
+    display: block; /* Ensures each card button takes up the full width */
+    margin: 10px 0; /* Adds spacing between the buttons */
+    padding: 10px;
+    width: 40vw; /* Sets the width to 40% of the view width */
+    text-align: center; /* Center-aligns the text */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    border: none;
+    border-radius: 0;
+    background-color: var(--background);
+    outline: 2px solid var(--background);
+    outline-offset: -2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Makes the shadow stronger */
+    }
+
+.card-list-item h3{
+    color: rgb(12, 62, 228);
+}
+
+.card-list-item button {
+    background-color: var(--primary);
+
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+}
+
+.card-list-item:hover {
+    background-color: var(--secondary); /* Slightly darker background on hover */
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column; /* Aligns items in a single column */
+    align-items: center; /* Centers the buttons horizontally */
+    padding: 20px; /* Adds padding around the list */
+}

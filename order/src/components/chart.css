@@ -3,18 +3,22 @@ ol {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-top: 8vh;
+    border: 2px solid black;
 }
 
 li {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40vw;
     height: 50px;
-    margin: 5px 0;
     color: white;
     font-weight: bold;
     text-align: center;
-    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
 }
 
 /* Background colors matching the class names */

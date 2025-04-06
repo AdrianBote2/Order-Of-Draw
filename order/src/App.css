@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.startButton {
+  background-color: rgb(12, 62, 228);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 35vw;
+  margin-top: 20px;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.startButton:hover {
+  background-color: rgb(10, 50, 182);
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.searchbar {
+  width: 40%;
+  align-self: flex-start;
+}
+
+.card-list-item button:hover {
+  background-color: darkslategray;
+}
+
+.chart {
+  width: 40vw;
+  align-self: flex-start;
+}
+
+.startButton {
+  
+}
+.leftCol {
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightCol {
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  background-color: #f6f7e0; 
+  margin: 0;
+}
+.addButton button{
+  background-color: white;
+  border-radius: 50%;
+  width: 5vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  font-family: "Rubik", sans-serif;
+}

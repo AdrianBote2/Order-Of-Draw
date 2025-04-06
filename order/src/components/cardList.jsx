@@ -19,12 +19,13 @@ const jsonData = [
 
 //<CardButton title="Card 1" onClick={() => alert('Card 1 clicked!')} />
 // CardList component
-const CardList = () => {
+const CardList = (className) => {
     return (
-        <div className="card-list">
+        <div className={className}>
             {jsonData.map((item) => (
                 <CardButton
                     key={item.id}
+                    className="card-list-item"
                     title={item.title}
                     onClick={() => alert(`Clicked on ${item.title}`)} // Example onClick handler
                 />

@@ -3,7 +3,7 @@
     --background: #f6f9fb;
     --primary: #4c9cb9;
     --secondary: #93c5d7;
-    --accent: #64c4e7;
+    --accent: #95daf3;
 }
 
 .card-list-item {
@@ -17,7 +17,7 @@
     border: none;
     border-radius: 0;
     background-color: var(--background);
-    outline: 2px solid var(--background);
+    /* outline: 2px solid var(--background); */
     outline-offset: -2px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Makes the shadow stronger */
     }
@@ -27,7 +27,7 @@
 }
 
 .card-list-item button {
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
 
     color: white;
     border: none;
@@ -40,7 +40,7 @@
 }
 
 .card-list-item:hover {
-    background-color: var(--secondary); /* Slightly darker background on hover */
+    background-color: var(--accent); /* Slightly darker background on hover */
 }
 
 .card-list {

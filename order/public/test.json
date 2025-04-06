@@ -1,40 +1,100 @@
 {
-    "commonTests" : {
+    "commonTests": {
         "HIV": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "HIV test to detect HIV infection in the blood"
+                }
+            ]
         }],
         "Hepatitis B & C Test": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to detect Hepatitis B and C infections in the blood"
+                }
+            ]
         }],
         "Thyroid Function Tests": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to evaluate thyroid hormone levels in the blood"
+                }
+            ]
         }],
         "Complete Blood Count": [{
-            "Vials": ["Vial7"]
+            "Vials": [
+                {
+                    "Vial": "Vial7",
+                    "Description": "Test to measure the number of different blood cells in a blood sample"
+                }
+            ]
         }],
         "Urinalysis": [{
-            "Vials": ["Vial9"]
+            "Vials": [
+                {
+                    "Vial": "Vial9",
+                    "Description": "Test to assess the components of urine and detect possible kidney or urinary tract disorders"
+                }
+            ]
         }],
         "Pregnancy Test": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to detect the hormone human chorionic gonadotropin (hCG) for pregnancy detection"
+                }
+            ]
         }],
         "Vitamin D Test": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to measure the level of Vitamin D in the blood"
+                }
+            ]
         }],
         "STD Test": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to detect various sexually transmitted diseases (STDs) in the blood"
+                }
+            ]
         }],
         "Blood Glucose Test": [{
-            "Vials": ["Vial8"]
+            "Vials": [
+                {
+                    "Vial": "Vial8",
+                    "Description": "Test to measure glucose levels in the blood, used to diagnose diabetes"
+                }
+            ]
         }],
         "Lipid Profile": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to measure cholesterol and triglyceride levels in the blood"
+                }
+            ]
         }],
         "Blood Cultures": [{
-            "Vials": ["Vial1"]
+            "Vials": [
+                {
+                    "Vial": "Vial1",
+                    "Description": "Test to detect bacterial or fungal infections in the blood"
+                }
+            ]
         }],
         "Serum": [{
-            "Vials": ["Vial3"]
+            "Vials": [
+                {
+                    "Vial": "Vial3",
+                    "Description": "Test to measure various biomarker levels in serum samples"
+                }
+            ]
         }]
     }
 }

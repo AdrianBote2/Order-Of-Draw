@@ -1,0 +1,40 @@
+{
+    "commonTests" : {
+        "HIV": [{
+            "Vials": ["Vial3"]
+        }],
+        "Hepatitis B & C Test": [{
+            "Vials": ["Vial3"]
+        }],
+        "Thyroid Function Tests": [{
+            "Vials": ["Vial3"]
+        }],
+        "Complete Blood Count": [{
+            "Vials": ["Vial7"]
+        }],
+        "Urinalysis": [{
+            "Vials": ["Vial9"]
+        }],
+        "Pregnancy Test": [{
+            "Vials": ["Vial3"]
+        }],
+        "Vitamin D Test": [{
+            "Vials": ["Vial3"]
+        }],
+        "STD Test": [{
+            "Vials": ["Vial3"]
+        }],
+        "Blood Glucose Test": [{
+            "Vials": ["Vial8"]
+        }],
+        "Lipid Profile": [{
+            "Vials": ["Vial3"]
+        }],
+        "Blood Cultures": [{
+            "Vials": ["Vial1"]
+        }],
+        "Serum": [{
+            "Vials": ["Vial3"]
+        }]
+    }
+}

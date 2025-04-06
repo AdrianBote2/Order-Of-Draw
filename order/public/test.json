@@ -1,13 +1,13 @@
 {
-    "commonTests": {
-        "HIV": [{
+        "HIV": {
+            "name": "HIV",
+            "Description": "HIV test to detect HIV infection in the blood",
             "Vials": [
                 {
-                    "Vial": "Vial3",
-                    "Description": "HIV test to detect HIV infection in the blood"
+                    "Vial": "Vial3"
                 }
             ]
-        }],
+        },
         "Hepatitis B & C Test": [{
             "Vials": [
                 {
@@ -96,5 +96,4 @@
                 }
             ]
         }]
-    }
 }

@@ -4,12 +4,15 @@ import SearchBar from './components/searchbar';
 import CardList from './components/cardList';
 import CardButton from './components/cardButton';
 import Chart from './components/chart';
+import Logo from './components/logo';
+
 
 
 function App() {
   return (
     <div className="App">
         <div className='leftCol'>
+          <Logo />
           <SearchBar />
           <CardList className="card-list-item"/>
           <div>
